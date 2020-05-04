@@ -3,7 +3,7 @@ import React from "react";
 import { Row, Col } from "antd";
 
 import { ParallaxBackground } from "../../components/ParallaxBackground/ParallaxBackground";
-import { StagedForm } from "../../components/StagedForm/StagedForm";
+import { QuizContainer } from "../QuizContainer/QuizContainer";
 
 export const Main = () => {
   return (
@@ -12,7 +12,7 @@ export const Main = () => {
         <ParallaxBackground />
       </Col>
       <Col span={10}>
-        <StagedForm />
+        <QuizContainer />
       </Col>
     </Row>
   );

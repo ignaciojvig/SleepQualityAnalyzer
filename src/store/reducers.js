@@ -1,1 +1,1 @@
-export { quizReducer as rootReducer } from "../components/StagedForm/reducers/quiz.reducer";
+export { quizReducer as rootReducer } from "../containers/QuizContainer/reducers/quiz.reducer";
