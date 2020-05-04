@@ -1,0 +1,2 @@
+export const STARTQUIZ = "STARTQUIZ";
+export const STARTQUIZLOADING = "STARTQUIZLOADING";

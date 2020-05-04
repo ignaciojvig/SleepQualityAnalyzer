@@ -1,12 +1,12 @@
 import React from "react";
 import "./App.css";
 
-import { ParallaxBackground } from "./containers/ParallaxBackground/ParallaxBackground";
+import { Main } from "./containers/Main/Main";
 
 function App() {
   return (
     <div className="App">
-      <ParallaxBackground />
+      <Main />
     </div>
   );
 }

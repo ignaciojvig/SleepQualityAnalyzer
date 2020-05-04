@@ -23,7 +23,6 @@
 }
 
 .findOutButtonRow {
-  margin: 1em 0;
   justify-content: center;
 }
 
@@ -31,4 +30,5 @@
   background-color: #2b2f77;
   border-color: #2b2f77;
   color: white;
+  width: 100%;
 }
