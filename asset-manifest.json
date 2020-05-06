@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SleepQualityAnalyzer/static/css/main.49b5ec83.chunk.css",
-    "main.js": "/SleepQualityAnalyzer/static/js/main.81d2dd65.chunk.js",
-    "main.js.map": "/SleepQualityAnalyzer/static/js/main.81d2dd65.chunk.js.map",
+    "main.js": "/SleepQualityAnalyzer/static/js/main.2ff4cbcc.chunk.js",
+    "main.js.map": "/SleepQualityAnalyzer/static/js/main.2ff4cbcc.chunk.js.map",
     "runtime-main.js": "/SleepQualityAnalyzer/static/js/runtime-main.93aa4212.js",
     "runtime-main.js.map": "/SleepQualityAnalyzer/static/js/runtime-main.93aa4212.js.map",
     "static/css/2.35fcc229.chunk.css": "/SleepQualityAnalyzer/static/css/2.35fcc229.chunk.css",
     "static/js/2.fdc136da.chunk.js": "/SleepQualityAnalyzer/static/js/2.fdc136da.chunk.js",
     "static/js/2.fdc136da.chunk.js.map": "/SleepQualityAnalyzer/static/js/2.fdc136da.chunk.js.map",
     "index.html": "/SleepQualityAnalyzer/index.html",
-    "precache-manifest.2234df7c66b04e0dcff0972971889f37.js": "/SleepQualityAnalyzer/precache-manifest.2234df7c66b04e0dcff0972971889f37.js",
+    "precache-manifest.c30131fc455ad2193775a49854903312.js": "/SleepQualityAnalyzer/precache-manifest.c30131fc455ad2193775a49854903312.js",
     "service-worker.js": "/SleepQualityAnalyzer/service-worker.js",
     "static/css/2.35fcc229.chunk.css.map": "/SleepQualityAnalyzer/static/css/2.35fcc229.chunk.css.map",
     "static/css/main.49b5ec83.chunk.css.map": "/SleepQualityAnalyzer/static/css/main.49b5ec83.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.35fcc229.chunk.css",
     "static/js/2.fdc136da.chunk.js",
     "static/css/main.49b5ec83.chunk.css",
-    "static/js/main.81d2dd65.chunk.js"
+    "static/js/main.2ff4cbcc.chunk.js"
   ]
 }
