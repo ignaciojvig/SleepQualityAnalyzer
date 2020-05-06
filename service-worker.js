@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SleepQualityAnalyzer/precache-manifest.c30131fc455ad2193775a49854903312.js"
+  "/SleepQualityAnalyzer/precache-manifest.86b1b1313f9c46c8e966df45c5889bb6.js"
 );
 
 self.addEventListener('message', (event) => {

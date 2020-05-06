@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "c8ba19965132661f653ded9f0ad1a37e",
+    "revision": "767f19bfb8421d4c5907d7f6ad144bd3",
     "url": "/SleepQualityAnalyzer/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SleepQualityAnalyzer/static/css/2.35fcc229.chunk.css"
   },
   {
-    "revision": "f7f62ab8a47beb0a6e2e",
+    "revision": "04d294c622e3467ff214",
     "url": "/SleepQualityAnalyzer/static/css/main.49b5ec83.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/SleepQualityAnalyzer/static/js/2.fdc136da.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f7f62ab8a47beb0a6e2e",
-    "url": "/SleepQualityAnalyzer/static/js/main.2ff4cbcc.chunk.js"
+    "revision": "04d294c622e3467ff214",
+    "url": "/SleepQualityAnalyzer/static/js/main.91eefea0.chunk.js"
   },
   {
     "revision": "12b11d5fc9711e7dc6d2",
