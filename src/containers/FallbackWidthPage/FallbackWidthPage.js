@@ -18,7 +18,7 @@ export const FallbackWidthPage = () => {
     `translate3d(0, ${15 * Math.sin(r + (i * 2 * Math.PI) / 1.6)}px, 0)`;
 
   return (
-    <div>
+    <div style={{ marginTop: "3em" }}>
       <Row style={{ justifyContent: "center", marginBottom: "3em" }}>
         <animated.div style={{ transform: radians.interpolate(interp(1)) }}>
           <GhostIcon style={{ fontSize: "50px" }} />
