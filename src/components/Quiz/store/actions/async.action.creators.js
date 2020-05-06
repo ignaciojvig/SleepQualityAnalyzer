@@ -9,6 +9,6 @@ export const startQuizWithLoading = (userStart) => {
 
     setTimeout(() => {
       dispatch(actionCreators.startQuiz(userStart));
-    }, 1000);
+    }, 12000);
   };
 };
