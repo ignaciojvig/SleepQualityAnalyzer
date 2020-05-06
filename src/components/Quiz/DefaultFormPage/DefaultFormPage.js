@@ -5,7 +5,7 @@ import { useDispatch } from "react-redux";
 
 import { DynamicMessageOutput } from "../../DynamicMessageOutput/DynamicMessageOutput";
 
-import * as actions from "../../../containers/QuizContainer/actions/actions";
+import * as actions from "../store/actions/actions";
 
 export const DefaultFormPage = ({ startQuizState }) => {
   const dispatch = useDispatch();

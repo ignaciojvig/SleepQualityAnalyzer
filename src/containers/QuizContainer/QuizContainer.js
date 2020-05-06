@@ -5,6 +5,7 @@ import { Card } from "antd";
 
 import { DefaultFormPage } from "../../components/Quiz/DefaultFormPage/DefaultFormPage";
 import { MessageIconOnlyPage } from "../../components/Quiz/MessageIconOnlyPage/MessageIconOnlyPage";
+import { BasicQuestionAndAnswer } from "../../components/Quiz/BasicQuestionAndAnswer/BasicQuestionAndAnswer";
 
 import { useSelector } from "react-redux";
 
@@ -16,13 +17,17 @@ export const QuizContainer = () => {
       case 0:
         return <DefaultFormPage startQuizState={state.startQuizState} />;
       case 1:
-        return <div> 1 </div>;
+        return <BasicQuestionAndAnswer stageContent={state.stageContent} />;
       case 2:
-        return <div> 2 </div>;
+        return <BasicQuestionAndAnswer stageContent={state.stageContent} />;
       case 3:
+      case 4:
+      case 5:
+      case 6:
+      case 7:
         return (
           <div>
-            <MessageIconOnlyPage />
+            <MessageIconOnlyPage stageContent={state.stageContent} />
           </div>
         );
       default:

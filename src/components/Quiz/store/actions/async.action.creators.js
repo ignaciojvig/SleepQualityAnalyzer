@@ -1,7 +1,7 @@
 import * as actionTypes from "./action.types";
 import * as actionCreators from "./action.creators";
 
-import { loadingDispatch } from "../../../store/utility-actions/utility.action.creators";
+import { loadingDispatch } from "../../../../store/utility-actions/utility.action.creators";
 
 export const startQuizWithLoading = (userStart) => {
   return (dispatch) => {
@@ -9,6 +9,6 @@ export const startQuizWithLoading = (userStart) => {
 
     setTimeout(() => {
       dispatch(actionCreators.startQuiz(userStart));
-    }, 12000);
+    }, 1000);
   };
 };
