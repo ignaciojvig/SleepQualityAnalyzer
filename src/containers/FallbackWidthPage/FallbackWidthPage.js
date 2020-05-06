@@ -40,7 +40,7 @@ export const FallbackWidthPage = () => {
           </p>
           <p>
             Maybe in a near future we might adapt this layout for mobile devices
-            also!
+            too!
           </p>
           <p> In the mean time, stay with this ghost :) </p>
           <p> (Don't look him in the eyes) </p>
