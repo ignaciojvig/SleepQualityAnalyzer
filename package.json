@@ -4,14 +4,17 @@
   "private": true,
   "homepage": "http://ignaciojvig.github.io/SleepQualityAnalyzer",
   "dependencies": {
+    "@cypress/code-coverage": "^3.7.0",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "antd": "^4.2.0",
     "gh-pages": "^2.2.0",
+    "istanbul-lib-coverage": "^3.0.0",
     "lodash.clonedeep": "^4.5.0",
     "moment": "2.24.0",
     "moment-timezone": "^0.5.28",
+    "nyc": "^15.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-html-parser": "^2.0.2",
@@ -25,12 +28,13 @@
     "moment": "2.24.0"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts -r @cypress/instrument-cra start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "cypress": "cypress open"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -46,5 +50,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@cypress/instrument-cra": "^1.1.1",
+    "cypress": "^4.5.0"
   }
 }

@@ -5,11 +5,11 @@ import { Main } from "./containers/Main/Main";
 import { FallbackWidthPage } from "./containers/FallbackWidthPage/FallbackWidthPage";
 
 function App() {
-  const [isDesktop, setDesktop] = useState(window.innerWidth > 1200);
+  const [isDesktop, setDesktop] = useState(window.innerWidth >= 1000);
   console.log(window.innerWidth);
 
   const updateMedia = () => {
-    setDesktop(window.innerWidth > 1200);
+    setDesktop(window.innerWidth >= 1000);
   };
 
   useEffect(() => {

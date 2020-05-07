@@ -28,7 +28,7 @@ export const DefaultFormPage = ({ startQuizState }) => {
   return (
     <Form onFinish={startQuiz} {...formLayout}>
       <Form.Item
-        name="name"
+        name="formItemName"
         label="Your name:"
         rules={[
           {
@@ -37,7 +37,7 @@ export const DefaultFormPage = ({ startQuizState }) => {
           },
         ]}
       >
-        <Input maxLength={30} />
+        <Input name="inputName" maxLength={30} />
       </Form.Item>
       <Form.Item name="gender" label="Your gender:">
         <Input
@@ -46,7 +46,7 @@ export const DefaultFormPage = ({ startQuizState }) => {
         />
       </Form.Item>
       <Form.Item
-        name="age"
+        name="formItemAge"
         label="Your age:"
         rules={[
           {
@@ -56,11 +56,12 @@ export const DefaultFormPage = ({ startQuizState }) => {
           },
         ]}
       >
-        <Input type="number" min={0} max={1000} />
+        <Input name="inputAge" type="number" min={0} max={1000} />
       </Form.Item>
       <Form.Item className="findOutButtonRow">
         <Row>
           <Button
+            name="submitForm"
             loading={startQuizState.loadingState}
             htmlType="submit"
             className="findOutButton"
