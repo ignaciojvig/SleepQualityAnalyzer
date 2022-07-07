@@ -12,7 +12,7 @@
     "gh-pages": "^2.2.0",
     "istanbul-lib-coverage": "^3.0.0",
     "lodash.clonedeep": "^4.5.0",
-    "moment": "2.24.0",
+    "moment": "2.29.4",
     "moment-timezone": "^0.5.28",
     "nyc": "^15.0.1",
     "react": "^16.13.1",
@@ -25,7 +25,7 @@
     "redux-thunk": "^2.3.0"
   },
   "resolutions": {
-    "moment": "2.24.0"
+    "moment": "2.29.4"
   },
   "scripts": {
     "start": "react-scripts -r @cypress/instrument-cra start",
