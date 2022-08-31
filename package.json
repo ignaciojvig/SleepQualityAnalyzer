@@ -13,7 +13,7 @@
     "istanbul-lib-coverage": "^3.0.0",
     "lodash.clonedeep": "^4.5.0",
     "moment": "2.24.0",
-    "moment-timezone": "^0.5.28",
+    "moment-timezone": "^0.5.35",
     "nyc": "^15.0.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
